@@ -14,15 +14,22 @@
 			
 			<h1>Sign Up</h1>
 
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="user_name">
-			<label for="email">Email:</label>
-			<input type="email" id="mail" name="user_email">
-			<label for="password">Password:</label>
-			<input type="password" id="password" name="user_password">
+			<fieldset>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="user_name">
 
-			<textarea name="user_bio" id="bio"></textarea>
+				<label for="mail">Email:</label>
+				<input type="email" id="mail" name="user_email">
 
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="user_password">
+			</fieldset>
+
+			<fieldset>
+				<label for="bio">Bio:</label>
+				<textarea name="user_bio" id="bio"></textarea>
+			</fieldset>
+			
 			<button type="submit">Sign Up</button>
 
 		</form>
