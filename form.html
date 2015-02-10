@@ -15,6 +15,7 @@
 			<h1>Sign Up</h1>
 
 			<fieldset>
+				<legend><span class="number">1</span>Basic Info</legend>
 				<label for="name">Name:</label>
 				<input type="text" id="name" name="user_name">
 
@@ -26,10 +27,19 @@
 			</fieldset>
 
 			<fieldset>
+				<legend><span class="number">2</span>Bio</legend>
 				<label for="bio">Bio:</label>
 				<textarea name="user_bio" id="bio"></textarea>
+
+				<label for="menu">Select Menu</label>
+				<select name="menu" id="menu">
+					<option value="option1">Option 1</option>
+					<option value="option2">Option 2</option>
+					<option value="option3">Option 3</option>
+					<option value="option4">Option 4</option>
+				</select>
 			</fieldset>
-			
+
 			<button type="submit">Sign Up</button>
 
 		</form>
